@@ -1,2 +1,3 @@
 This application implements a simple version of the game of bingo, set up according to the producer-consumer pattern: the producer draws the numbers and communicates them to the consumers, and each consumer is a different player.
+
 Specifically, the programme contains five files, each containing a different class: the file Banditore.py contains a thread class of the producer (Server), Giocatore.py contains a thread class of the consumer (Player), the file Partita.py contains the class of the shared object Game, the file main.py contains the class Interface that implements the graphical interface of the game, and the file Test.py, finally, contains the class Test that allows simple tests to be carried out on different parts of the code.
